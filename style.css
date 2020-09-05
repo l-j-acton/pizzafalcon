@@ -1,0 +1,35 @@
+	h1{
+      font-family: Georgia;
+	  font-size: 100px;
+	  font-weight: bold;
+	  margin-left: 100px;
+	  padding-top: 100px;
+	  line-height: 6px;
+	}
+	
+	.byline {
+      font-family: Georgia;
+	  font-size: 18px;
+      font-style: italic;
+      margin-left: 100px;
+      margin-bottom: 100px;	  
+	}
+	
+	p {
+      font-family: Georgia;
+	  font-size: 20px;
+	  line-height: 27px;
+	  color: black;
+	  margin-left: 100px;
+    }
+	
+	img {
+		width: 600px;
+		overflow: scroll;
+		margin-left: 90px;
+	}
+	
+	.oversized {
+		width: 700px;
+		margin-left: 10px;
+	}
