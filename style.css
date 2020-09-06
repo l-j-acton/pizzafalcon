@@ -1,27 +1,38 @@
-	h1{
-      font-family: Georgia;
-	  font-size: 100px;
-	  font-weight: bold;
-	  margin-left: 100px;
-	  padding-top: 100px;
-	  line-height: 6px;
+	@font-face {
+		font-family: Mermaid1001;
+		src: url(Mermaid1001.ttf);
 	}
+	  
+	@font-face {
+		font-family: Aver;
+		src: url(Aver.ttf);
+	  }
+	
+	h1{
+		font-family: Mermaid1001;
+		font-size: 120px;
+		font-weight: bold;
+		margin-left: 100px;
+		padding-top: 100px;
+		line-height: 6px;
+		font-weight: bold;
+	  }
 	
 	.byline {
-      font-family: Georgia;
-	  font-size: 18px;
-      font-style: italic;
-      margin-left: 100px;
-      margin-bottom: 100px;	  
+		font-family: Aver;
+		font-size: 20;
+      		font-style: italic;
+     		margin-left: 100px;
+      		margin-bottom: 100px;	  
 	}
 	
 	p {
-      font-family: Georgia;
-	  font-size: 20px;
-	  line-height: 27px;
-	  color: black;
-	  margin-left: 100px;
-    }
+		font-family: Aver;
+		font-size: 20px;
+		line-height: 27px;
+		color: black;
+		margin-left: 100px;
+        }
 	
 	img {
 		width: 600px;
